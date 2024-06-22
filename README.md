@@ -8,7 +8,7 @@ In each directory where you want to dynamically import modules (e.g., serializer
 
 For example:
 
-```
+```python
 # backend/serializers/__init__.py
 
 from auto_import.utils import import_dir
@@ -16,7 +16,7 @@ from auto_import.utils import import_dir
 import_dir(__name__)
 ```
 
-```
+```python
 # backend/viewsets/__init__.py
 
 from auto_import.utils import import_dir
